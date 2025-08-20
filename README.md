@@ -13,6 +13,20 @@ Each folder contains a **self-contained AI Agent project** with:
 - 🎯 Example use cases
 
 
+## Starter AI Agents Included  
+1. 📧 **Email Summarizer Agent** – Summarizes long emails into short notes  
+2. ⏰ **Task Reminder Agent** – Tracks deadlines & sends reminders  
+3. 📄 **Document Q&A Agent** – Chat with PDFs, Docs, or research papers  
+4. 📝 **AI Meeting Notes Agent** – Generates action items from transcripts  
+5. 💰 **Personal Finance Tracker Agent** – Categorizes your spending  
+6. 🌐 **Website Research Agent** – Browses and summarizes web content  
+7. 📄 **Resume & Cover Letter Agent** – Tailors career documents  
+8. 📱 **Social Media Post Agent** – Creates daily posts/tweets  
+9. 🧹 **Data Cleaning Agent** – Suggests fixes for messy datasets  
+10. 🎓 **Knowledge Quiz Agent** – Turns notes into interactive quizzes
+
+
+
 # 🔟 Starter AI Agents for Beginners  
 
 Kickstart your journey into **AI Agents** with these **10 beginner-friendly projects**.  
