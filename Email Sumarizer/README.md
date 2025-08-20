@@ -1,4 +1,19 @@
 # Email Summarizer Agent (Gmail + LLM)
+# 📧 ➡️ ✨ Email Summarizer Agent  
+
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)  
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-orange)](https://platform.openai.com/)  
+[![Ollama](https://img.shields.io/badge/Ollama-llama3.1-green)](https://ollama.ai)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+
+A lightweight Python agent that connects to **Gmail API**, fetches your emails, and generates **short, crisp summaries** using either **OpenAI GPT** or a **local Ollama model**.  
+Save time by scanning bullet-point summaries of long emails directly in Markdown.  
+
+---
+
+## 📂 Project Structure  
+
+
 
 Reads long emails and generates short, crisp summaries using either OpenAI or a local LLM via Ollama.
 
