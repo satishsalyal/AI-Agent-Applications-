@@ -59,30 +59,3 @@ python email_summarizer_agent.py --provider ollama --model llama3.1 --max 5 --qu
 
 The first run opens a browser for Google OAuth. Subsequent runs reuse `token.json`.
 
-## Output
-Summaries are printed and saved to `summaries.md` like:
-
-```md
-### Project Update
-- **From:** Jane Doe <jane@company.com>
-- **Date:** Tue, 19 Aug 2025 10:02:55 +0530
-- **Gmail ID:** 18c1234a56b7c8d9
-- **Link:** https://mail.google.com/mail/u/0/#inbox/18c1234a56b7c8d9
-
-• Budget approved. • Deliverables due Friday. • You to confirm resource plan. • Risks: vendor delay. • Tone: positive, time-sensitive.
-```
-
-## Tips
-- Use narrower queries (e.g., `is:unread`) to keep token costs low.
-- For very long emails, the script chunk-summarizes then compresses.
-- You can change the summarization style by editing the `system_prompt` in the code.
-
-## Troubleshooting
-- **`Missing client_secret.json`**: Make sure you downloaded OAuth credentials and placed them next to the script.
-- **OpenAI 401**: Set `OPENAI_API_KEY`.
-- **ConnectionError to Ollama**: Start `ollama serve` and `ollama pull` your model.
-- **Rate limits**: Reduce `--max` or narrow your `--query`.
-
-## Security
-- The script requests `gmail.readonly` scope and stores `token.json` locally. Keep it safe.
-- Do not commit keys or OAuth files to public repos.
